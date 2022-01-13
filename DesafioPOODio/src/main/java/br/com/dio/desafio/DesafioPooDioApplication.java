@@ -1,4 +1,4 @@
-package ia.development;
+package br.com.dio.desafio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
