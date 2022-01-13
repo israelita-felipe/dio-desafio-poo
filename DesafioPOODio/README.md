@@ -9,4 +9,4 @@ Nele aplicamos os conceitos de Orientação a Objetos: Abstração, Encapsulamen
 1. Java 17
 2. Spring Tool Suite
 
-[LinkedIn]{https://www.linkedin.com/in/israel-ara%C3%BAjo-15b27128/}
+Segue meu [LinkedIn](https://www.linkedin.com/in/israel-ara%C3%BAjo-15b27128/)
