@@ -2,14 +2,25 @@ package br.com.dio.desafio.dominio;
 
 import java.time.LocalDate;
 
-import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.experimental.SuperBuilder;
 
 @Data
-@Builder
-public class Mentoria {
+@SuperBuilder
+@EqualsAndHashCode(callSuper = true)
+public class Mentoria extends Conteudo {
 
-	private String titulo;
-	private String descricao;
 	private LocalDate data;
+
+	@Override
+	public double calcularXp() {
+		return XP_PADRAO * 10d;
+	}
+
+	@Override
+	public String toString() {
+		return "Mentoria [data=" + data + ", título=" + getTitulo() + ", descrição=" + getDescricao() + "]";
+	}
+
 }
